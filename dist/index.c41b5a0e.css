@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #121212;
+  background: #fcfcfc;
+  height: 100vh;
+  margin: 0;
+  font-family: cursive;
+}
+
+.container {
+  margin-inline: 24px;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  gap: 36px;
+  display: flex;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+
+img {
+  text-align: center;
+  width: 360px;
+  height: 280px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
