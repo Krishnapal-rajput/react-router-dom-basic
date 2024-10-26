@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: cursive;
+  background: #fcfcfc;
+  color: #121212;
+}
+.container{
+    margin-inline: 24px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+    cursor: pointer;
+}
+img{
+    text-align: center;
+    width: 360px;
+    height: 280px;
+}
